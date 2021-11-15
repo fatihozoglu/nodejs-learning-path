@@ -1,0 +1,11 @@
+{
+  "name": "npm-learning-path",
+  "version": "1.0.0",
+  "description": "This is a project for trying the exercises in https://nodejs.dev/learn for learning NodeJS Basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fatih Özoğlu",
+  "license": "MIT"
+}
