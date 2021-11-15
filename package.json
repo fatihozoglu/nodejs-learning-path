@@ -1,5 +1,5 @@
 {
-  "name": "npm-learning-path",
+  "name": "nodejs-learning-path",
   "version": "1.0.0",
   "description": "This is a project for trying the exercises in https://nodejs.dev/learn for learning NodeJS Basics",
   "main": "index.js",
