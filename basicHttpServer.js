@@ -7,8 +7,11 @@ const port = 3000;
 
 // The createServer() method of http creates a new HTTP server and returns it
 const server = http.createServer((req, res) => {
+  // Set the statusCode property to 200, to indicate a successful response
   res.statusCode = 200;
+  // Set the Content-Type header
   res.setHeader("Content-Type", "text/plain");
+  // Close the response, adding the content as an argument to end()
   res.end("Hello NodeJS");
 });
 
