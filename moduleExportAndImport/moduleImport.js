@@ -1,4 +1,4 @@
-// To run this script: node moduleImport
+// To run this script: node moduleExportAndImport/moduleImport
 
 // Import the object exported from moduleExport.js
 const person = require("./moduleExport");
