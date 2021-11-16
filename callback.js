@@ -2,6 +2,7 @@
 
 // Import axios
 const axios = require("axios");
+const fs = require("fs");
 
 // Callback functions are functions passed as an argument to another function
 // Functions which accepts other functions as argument or returning a function are called Higher Order Functions
@@ -63,3 +64,14 @@ function returnKeys(object) {
 }
 
 apiCall(returnKeys); // Result will be: [ 'userId', 'id', 'title', 'completed' ]
+
+// Another example with asynchronous fs.readFile() method
+// Here we write our callback function directly as an argument and it will be called after reading file
+// This will probably execute faster than apiCall function because apiCall makes network request which is slower
+fs.readFile("./README.md", (error, data) => {
+  if (error) {
+    console.log(error.message);
+  } else {
+    console.log(data);
+  }
+});
