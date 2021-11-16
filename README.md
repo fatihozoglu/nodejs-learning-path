@@ -14,6 +14,7 @@ You can check the code samples about:
 - [Using 'module.exports' for exporting an object from a file and importing that object in another file](moduleExportAndImport)
 - [Using 'exports' for exporting an object from a file and importing that object in another file](exportAndImport)
 - [Understanding Event Loop, Call Stack, Message Queue and Job Queue](eventLoop.js)
+- [Using setTimeout, setInterval and clearInterval](timers.js)
 
 ## Author
 
