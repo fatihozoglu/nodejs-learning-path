@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fatih Özoğlu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
