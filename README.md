@@ -7,6 +7,12 @@ This is a repo for trying out the examples and practices in [NodeJS Official Doc
 You can read about:
 
 - [Creating a basic Http Server](basicHttpServer.js)
+- [Reading Environment Variables From CLI](readEnvVariables.js)
+- [Accepting arguments from CLI](argumentsFromCLI.js)
+- [Calculating the execution time of a function with console.time() and console.timeEnd()](calculateTimeSpent.js)
+- [Accepting inputs from CLI](inputFromCLI.js)
+- [Using 'module.exports' for exporting an object from a file and importing that object in another file](moduleExportAndImport)
+- [Using 'exports' for exporting an object from a file and importing that object in another file](exportAndImport)
 
 ## Author
 
